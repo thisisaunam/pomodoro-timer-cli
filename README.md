@@ -1,43 +1,43 @@
-# customizable pomodoro timer
+# Customizable pomodoro timer
 
-a command-line python application that implements a structured and customizable pomodoro timer with multiple themes, session handling, and robust input validation.
+A command-line python application that implements a structured and customizable pomodoro timer with multiple themes, session handling, and robust input validation.
 
 ---
 
-## features
+## Features
 
-* multiple theme modes:
-  * classic
-  * soft study
-  * focus mode
-  * late-night workflow
-  * cozy desk
-  * monochrome minimal
+* Multiple theme modes:
+  * Classic
+  * Soft study
+  * Focus mode
+  * Late-night workflow
+  * Cozy desk
+  * Monochrome minimal
 
-* predefined timer configurations:
+* Predefined timer configurations:
   * 25 minutes work / 5 minutes break
   * 30 minutes work / 5 minutes break
   * 50 minutes work / 10 minutes break
 
-* fully customizable timer:
-  * user-defined hours, minutes, and seconds for both study and break durations
+* Fully customizable timer:
+  * User-defined hours, minutes, and seconds for both study and break durations
 
-* session-based execution:
-  * supports multiple consecutive study sessions in a single run
+* Session-based execution:
+  * Supports multiple consecutive study sessions in a single run
 
-* centralized timer logic:
-  * reusable core function reduces redundancy and improves scalability
+* Centralized timer logic:
+  * Reusable core function reduces redundancy and improves scalability
 
-* strong input validation:
-  * ensures only valid numeric inputs are accepted
-  * handles invalid entries using exception handling and loops
+* Strong input validation:
+  * Ensures only valid numeric inputs are accepted
+  * Handles invalid entries using exception handling and loops
 
-* interactive CLI interface:
-  * structured prompts and clean output flow
+* Interactive CLI interface:
+  * Structured prompts and clean output flow
 
 ---
 
-## how to run
+## How to run
 
 ```id="run101"
 python pomodoro_timer_v1.py
@@ -45,31 +45,31 @@ python pomodoro_timer_v1.py
 
 ---
 
-## project structure
+## Project structure
 
 * pomodoro_timer_v1.py → main application file
 
 ---
 
-## concepts demonstrated
+## Concepts demonstrated
 
-* modular programming using functions
-* control flow (loops and conditionals)
-* input validation with try-except blocks
-* time-based execution using the `time` module
-* code reusability and abstraction
-
----
-
-## future improvements
-* persistent session tracking using file handling
-* sound/notification integration
-* menu-driven navigation system
-* graphical user interface (GUI) version
+* Modular programming using functions
+* Control flow (loops and conditionals)
+* Input validation with try-except blocks
+* Time-based execution using the `time` module
+* Code reusability and abstraction
 
 ---
 
-## preview
+## Future improvements
+* Persistent session tracking using file handling
+* Sound/notification integration
+* Menu-driven navigation system
+* Graphical user interface (GUI) version
+
+---
+
+## Preview
 
 <img width="587" height="751" alt="image" src="https://github.com/user-attachments/assets/b1c32ce4-c833-4b59-ae25-64a3380dc99b" />
 <img width="660" height="726" alt="image" src="https://github.com/user-attachments/assets/31cdbde2-a09e-4047-8020-51f27bd1b761" />
@@ -77,6 +77,6 @@ python pomodoro_timer_v1.py
 
 ---
 
-## notes
+## Notes
 
-this project is part of a broader effort to build structured, user-interactive command-line applications while strengthening core python fundamentals.
+This project is part of a broader effort to build structured, user-interactive command-line applications while strengthening core python fundamentals.
